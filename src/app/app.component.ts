@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { ApiService } from './api.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'APIdemo';
+  show: boolean=false;
+  constructor(private router:Router){}
+  
+  open(){
+    this.show=true;
+    this.router.navigateByUrl('/table');
+    console.log(this.show);
+  }
+
 }

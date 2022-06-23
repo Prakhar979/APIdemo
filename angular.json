@@ -23,9 +23,14 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "/Users/prakhar/Downloads/Frontend/Angular/APIdemo/node_modules/bootstrap/dist/css/bootstrap.min.css"
+
             ],
-            "scripts": []
+            "scripts": [
+              "/Users/prakhar/Downloads/Frontend/Angular/APIdemo/node_modules/bootstrap/dist/js/bootstrap.min.js"
+
+            ]
           },
           "configurations": {
             "production": {
@@ -90,12 +95,18 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "/Users/prakhar/Downloads/Frontend/Angular/APIdemo/node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "/Users/prakhar/Downloads/Frontend/Angular/APIdemo/node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "389da6fd-15ff-45c8-bc4e-939d2897acb1"
   }
 }

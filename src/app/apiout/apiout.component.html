@@ -1,0 +1,18 @@
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">USERID</th>
+        <th scope="col">ID</th>
+        <th scope="col">TITLE</th>
+        <th scope="col">BODY</th>
+      </tr>
+    </thead>
+    <tbody class="table-group-divider">
+      <tr *ngFor="let todo of todos">
+        <th scope="row">{{todo.userId}}</th>
+        <td>{{todo.id}}</td>
+        <td>{{todo.title}}</td>
+        <td>{{todo.body}}</td>
+      </tr>
+    </tbody>
+  </table>

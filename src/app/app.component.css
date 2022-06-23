@@ -1,0 +1,16 @@
+.main > button{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    width: 150px;
+    height: 50px;
+    padding: 2px;
+    border: none;
+    border-radius: 12px;
+    background-color: rgba(36, 56, 230, 0.9);
+    color: white;
+    font-weight: 900;
+    font-size: large;
+    
+
+}
